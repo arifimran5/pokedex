@@ -1,11 +1,12 @@
-import './App.css';
+import "./App.css";
+import PokeGame from './PokeGame'
 
 function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+   return (
+      <div className="App">
+         <PokeGame/>
+      </div>
+   );
 }
 
 export default App;
